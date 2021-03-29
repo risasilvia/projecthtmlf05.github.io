@@ -1,0 +1,459 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+body {
+    font-family: "Lucida Grande";
+  
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  nav ul{
+      display: none;
+  }
+  .header-bar h1 a{
+    color: whitesmoke;
+  }
+  .header-bar h1{
+      float: left;
+      color: whitesmoke;
+  }
+  
+  .header-bar img{
+    width: 120px;
+    margin-top: 4.5px;
+    margin-left: -130px;
+    float:left;
+    
+  }
+  header ul {
+    float: right;
+    padding-top: 4px;
+    margin-top: 6px;
+  }
+  header ul li {
+      display: inline-block;
+      
+  }
+  header ul li a {
+      padding : 25px 20px;
+      display: inline-block;
+      color: whitesmoke;
+     
+  }
+  header ul li  :hover{
+    background-color:rgba(255, 255, 255, 0.5);
+    transition: all 0.5s;
+    
+  }
+  
+  .container {
+      width:1170px;
+      margin: 0 auto;
+  }
+  header {
+      background-color:rgba(105, 6, 72, 0.9);
+      height:90px;
+      width:100%;
+      position:fixed;
+      z-index:10;
+    }
+    .checkbtn {
+        border: 1px solid red;
+        padding: 4px 20px ;
+        font-size: 15px;
+        color: whitesmoke;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    #check{
+        display: none;
+    }
+  /* .header-left {
+      float:left;
+      color:rgba(238, 168, 215, 0.9)
+  }
+  .header-right a:hover {
+      background-color:rgba(255, 255, 255, 0.5);
+  } */
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background-image: url();
+    background-size: cover;
+    color: black;
+    text-align: center;
+}
+.top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+    font-size: xx-large;
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn-wrapper p {
+    margin: 10px 0;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: black;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.message {
+    padding: 15px 40px;
+    background-color: #cc42ba;
+    cursor: pointer;
+    box-shadow: 0 7px #e012e7;
+}
+
+.message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+
+.tutor-wrapper {
+    height: 250px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    background-color: violet;
+    text-align: center;
+}
+
+.heading h2 {
+    padding-top: 5px;
+    font-weight: normal;
+    font-size: 24px;
+}
+.daun {
+    float: left;
+    width: 20%;
+
+}
+.daun-icon {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 0 50% 0 50%;
+    text-align: center;
+    line-height: 150px;
+}
+.daun-icon:hover {
+    opacity: 1;
+    transition: all 0.5s;
+    cursor: pointer;
+    background-color: tomato;
+}
+
+.daun:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+.container-footer{
+    position: relative;
+}
+footer {
+    height: 100px;
+    width: 100%;
+    background-color:rgba(105, 6, 72, 0.9);
+    margin-top: 50px;
+}
+
+.logo-footer {
+    height: 75px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    position: absolute;
+    left: 40%;
+    
+}
+
+li {
+    list-style: none;
+    padding-bottom: 5px;
+    color: black;
+    margin-right: 20px;
+}
+.footer{
+    margin-top: -50px;
+}
+.footer-list {
+    float: right;
+    position: absolute;
+    right: 40%;
+}
+.footer-list ul li :hover{
+    color: whitesmoke;
+    transition: all 0.5s;
+}
+/* Untuk Laptop/notebook */
+@media all and (max-width: 1024px) {
+    header{
+        position: relative;
+    }
+    .header-bar h1{
+        float: left;
+        color: whitesmoke;
+        position: absolute;
+        left: 15%;
+    }
+    .header-bar img{
+        width: 120px;
+        margin-bottom: 100px;
+        margin-left: -130px;
+        float:left;
+        position: absolute;
+        left: 15%;
+    }
+    .btn {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    footer {
+        height: 100px;
+        width: 100%;
+        background-color:rgba(105, 6, 72, 0.9);
+        margin-top: 50px;
+    }
+    .footer{
+        margin-top: -50px;
+    }
+    .footer-list {
+        float: right;
+        position: absolute;
+        right: 39%;
+    }
+     .logo-footer {
+        height: 75px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 20px;
+        position: absolute;
+        left: 35%;
+     }
+     
+   
+/* Untuk Tablet */
+@media all and (max-width: 768px) {
+    header{
+        position: relative;
+    }
+    .header-bar h1{
+        float: left;
+        color: whitesmoke;
+        position: absolute;
+        left: 43%;
+    }
+    .header-bar ul{
+        display: none;
+    }
+    .header-bar img{
+      width: 120px;
+      margin-top: 4.5px;
+      margin-left: -130px;
+      float:left;
+      position: absolute;
+      left: 43%;
+    }
+    .checkbtn{
+        display: block;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+     /* ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: palevioletred;
+        top: 71px;
+        left: -100%;
+        text-align: center;
+        transition: .5s;
+    }
+     ul li{
+        height: 100px;
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+     ul li a {
+        line-height: 100px;
+        font-size: 20px;
+    } */
+    /* li:hover, li.active {
+        background-color: blue;
+        color: papayawhip; 
+    }
+   */
+   
+    .top-wrapper p {
+        opacity: 0.7;
+        margin-bottom: 3px;
+        font-size: x-large;
+    }
+    
+
+    .btn {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+  
+    .footer-list  {
+        float: right;
+        position: absolute;
+        right: 32.5%;
+    }
+    .logo-footer {
+        height: 75px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 20px;
+        position: absolute;
+        left: 35%;
+    }
+    .footer{
+        margin-top: -50px;
+    }
+}
+   
+
+/* Untuk Smartphone */
+@media all and (max-width: 425px) {
+    header{
+        position: relative;
+    }
+    .header-bar h1{
+        float: left;
+        color: whitesmoke;
+        position: absolute;
+        left: 33%;
+        font-size: x-large;
+        margin-top: 30px;
+    }
+    .header-bar img{
+        width: 100px;
+        height: 80px;
+        size: 50%;
+        margin-top: 7.5px;
+        margin-left: -150px;
+        float:left;
+        position: absolute;
+        left: 45%;
+      }
+    .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .top-wrapper{
+        height: 600px;
+        margin-top: 10px;
+    }
+    .top-wrapper p {
+        margin-top: -80px;
+        font-size: larger;
+        line-height: 20px;
+    }
+    .heading h2{
+        font-size: larger;
+    }
+    .footer-list {
+        float: right;
+        position: absolute;
+        right: 15.5%;
+    }
+    .logo-footer {
+        height: 75px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 20px;
+        position: absolute;
+        left: 25%;
+    }
+    .daun {
+        float: left;
+        width: 20%;
+    
+    }
+    .daun-icon {
+        margin-top: 50px;
+        position: relative;
+        width: 75px;
+        height: 75px;
+        background-color: white;
+        border-radius: 0 50% 0 50%;
+        text-align: center;
+        line-height: 75px;
+    }
+    .footer{
+        margin-top: -50px;
+    }
+    .footer-list {
+        float: right;
+        position: absolute;
+        right: 25%;
+    }
+    .logo-footer {
+        height: 75px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 20px;
+        position: absolute;
+        left: 20%;
+    }
+  }
+}
